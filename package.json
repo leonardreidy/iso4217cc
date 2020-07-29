@@ -4,6 +4,7 @@
   "description": "An NPM package that provides simple utilities for working with ISO 4217 currency codes.",
   "main": "build/index.js",
   "scripts": {
+    "build": "babel ./src -d ./lib",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/leonardreidy/iso4217cc/issues"
   },
-  "homepage": "https://github.com/leonardreidy/iso4217cc#readme"
+  "homepage": "https://github.com/leonardreidy/iso4217cc#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
 }
