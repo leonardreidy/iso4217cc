@@ -1,0 +1,26 @@
+{
+  "name": "iso4217cc",
+  "version": "0.0.1",
+  "description": "An NPM package that provides simple utilities for working with ISO 4217 currency codes.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardreidy/iso4217cc.git"
+  },
+  "keywords": [
+    "npm",
+    "node",
+    "currency codes",
+    "javascript",
+    "iso4217"
+  ],
+  "author": "Leonard M Reidy <leonard.reidy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardreidy/iso4217cc/issues"
+  },
+  "homepage": "https://github.com/leonardreidy/iso4217cc#readme"
+}
