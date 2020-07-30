@@ -34,6 +34,7 @@
     "jest": "^26.1.0"
   },
   "dependencies": {
+    "csv-parser": "^2.3.3",
     "fuse.js": "^6.4.1"
   }
 }
